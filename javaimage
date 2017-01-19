@@ -8,7 +8,7 @@
 	<title>Images</title>
 	
     	<body>
-    	  <p><img src="dog.jpg" style="width: 200px; height: 100px"></p>
+    	  <p><img src="image/dog.jpg" style="width: 200px; height: 100px"></p>
     	  
     	</body>
 </html>
