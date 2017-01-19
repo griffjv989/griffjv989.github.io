@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  
+  <title>Page Title</title>
+  
+</head>
+
+  <body>
+    <h1>Assessment 1</h1>
+    <h2>Paragraph 1</h2>
+    <p style="text-align:center"><a href="http://www.apple.com/" target="_blank">Apple computer</a></p>
+    <h2>Paragraph 2</h2>
+    <p style="text-align:center; background-color:lightblue"><i>Windows</i> Computer</p>
+    <h2>Paragraph 3</h2>
+    <p style="color:red; text-align:center"><b>Toshiba</b> computer</p>
+    <p> <img src="dog.jpg" alt="dog" style="width: 200px;height:150px"></p>
+    <p>
+    </p>
+    <table style="width:100%">
+      <tr>
+        <th style="text-align:left"><b>Name</b></th>
+        <th style="text-align:center"><b>Gender</b></th>
+        <th style="text-align:right"><b>Age</b></th>
+      </tr>
+      <tr>
+        <td>Karl</td>
+        <td style="text-align:center">Male</td>
+        <td style="text-align:right">52</td>
+      </tr>
+      <tr>
+        <td>Natalie</td>
+        <td style="text-align:center">Female</td>
+        <td style="text-align:right">48</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td style="text-align:center">Female</td>
+        <td style="text-align:right">32</td>
+      </tr>
+      
+    </table>
+    <ol type="a">
+        <li>Alpha</li>
+        <li>Bravo</li>
+        <li>Charlie</li>
+      </ol>
+  </body>
+  
+</html>
