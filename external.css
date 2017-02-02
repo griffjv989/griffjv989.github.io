@@ -1,0 +1,36 @@
+.Class  {
+        
+        text-align:center;
+        height: 75px;
+        width: 200px;
+        padding: 5px;
+        border: 2px solid blue;
+        margin: 10px;
+        background-color:red;
+        
+      }
+      #id1    {
+        text-align:left;
+        color:white;
+        height: 100px;
+        width: 200px;
+        padding: 10px;
+        border: 2px solid red;
+        border-radius:25%;
+        margin:10px;
+        background-color: black;
+      }
+      
+      #id2    {
+        font-family: Impact, Charcoal, sans-serif;
+        color: #ffcc00;
+      }
+      a  {
+        color: blue;
+      }
+       a:visited {
+        color:green;
+      }
+      a:hover {
+        color:orange;
+      }
