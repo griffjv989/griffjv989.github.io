@@ -20,6 +20,7 @@ h1{
     body {
       width: 50%;
       font-family: Georgia;
+      background-color: #F4F4F4;
     }
     .header{
       position:absolute;
