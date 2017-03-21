@@ -1,5 +1,5 @@
 h1{
-      display:none;
+      
       position:relative;
       top:10px;
       font-size:60px;
@@ -19,13 +19,13 @@ h1{
       margin-right:20%;
     }
     body {
-      display: none;
+      
       width: 50%;
       font-family: Georgia;
       background-color: #F4F4F4;
     }
     .header{
-      display: none;
+      
       position:absolute;
       left:650px;
       top:10px;
@@ -53,11 +53,11 @@ h1{
       color:white;
     }
     h2{
-      display: none;
+      
       font-style:italic;
     }
     .singlecolumn { 
-      display: none;
+    
       position:relative;
       left: 200px;
       bottom:40px;
