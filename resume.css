@@ -19,6 +19,7 @@ h1{
       margin-right:20%;
     }
     body {
+      display: none;
       width: 50%;
       font-family: Georgia;
       background-color: #F4F4F4;
