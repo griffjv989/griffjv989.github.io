@@ -13,8 +13,8 @@
 $(document).ready(function(){
     $("button").click(function(){
         $(".div1").fadeIn();
-        $("#div2").fadeIn("slow");
-        $("#div3").fadeIn(3000);
+        $(".div2").fadeIn("slow");
+        $(".div3").fadeIn(3000);
     });
 });
 </script>
@@ -25,19 +25,12 @@ $(document).ready(function(){
 
 <button>Click to fade in/out boxes</button><br><br>
 
-<div class="div1" style="width:80px;height:80px;background-color:red;"></div>
-<br>
-<div id="div2" style="width:80px;height:80px;background-color:green;"></div>
-<br>
-<div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
-
-
 
   
     <h1 class="div1">Griffin Van Anne</h1>
     
     <p> </p>
-    <div class="header" class="div1">
+    <div class="header"; class="div1"; style="display:none">
     <p ><a href="https://griffjv989.github.io/Resume.html" class="button" download style="color:white">Download</a></p>
     <p><a href="mailto:griffinv989@gmail.com" target="_new">griffinv989@gmail.com</a></p>
     <p>(720).937.3819</p>
@@ -45,7 +38,7 @@ $(document).ready(function(){
     <p>&nbsp;</p>
     <hr>
     <p> </p>
-    <h2 id="div2">Education</h2>
+    <h2 style="display:none" class="div2">Education</h2>
     <div class="singlecolumn">
     <p>   Arapahoe High School, Centennial, CO</p>
     <p>   August 2013 - Present</p>
