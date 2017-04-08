@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<input type="button" value="Click to get random number" onclick="myFunction()">
+<div id="showCount"></div>
+<script>
+
+var cars = ["1","6","3","7","2","4","9","2","1","2","4","6","9","3","4"];
+var inc=-1;
+ function myFunction() {
+    inc=inc+1;
+    document.getElementById("showCount").innerHTML = cars[inc];
+  
+}
+
+
+
+</script>
+
+</body>
+</html>
