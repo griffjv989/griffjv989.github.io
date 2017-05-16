@@ -5,17 +5,77 @@
 <head>
   
   <title>Final Game</title>
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
   <body>
     <h1>Welcome to my free game website!</h1>
-    <a href="http://griffjv989.github.io/simplegame.html">Simple Fun Game</a>
-    <a href="http://griffjv989.github.io/finaljavasnake.html">Snake Game</a>
-    <h3>Sources include</h3>
-    <ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(function(){
+        $("a").hide();
+    });
+});
+$(document).ready(function(){
+    $(function(){
+        $("ul").hide();
+    });
+});
+$(document).ready(function(){
+    $(function(){
+        $("h1").hide();
+    });
+});
+$(document).ready(function(){
+    $("#source").click(function(){
+        $("ul").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#games").click(function(){
+        $("a").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("h1").fadeIn("slow");
+        $("button").fadeIn(3000);
+        $("#button").fadeOut("slow");
+    });
+});
+$(document).ready(function(){
+    $(function(){
+        $("#button").show();
+    });
+});
+$(document).ready(function(){
+    $(function(){
+        $("#games").hide();
+    });
+});
+$(document).ready(function(){
+    $(function(){
+        $("#source").hide();
+    });
+});
+</script>
+<button id ="button" type="button" class="btn btn-primary">Enter</button>
+<button id="games" type="button" class="btn btn-danger">Games</button>
+
+<button id="source" type="button" class="btn btn-success">Sources</button>
+<p></p>   
+<div><a href="http://griffjv989.github.io/simplegame.html">Simple Fun Game</a></div>
+<div><a href="http://griffjv989.github.io/finaljavasnake.html">Snake Game</a></div>
+<a href="http://griffjv989.github.io/minsweeper.html">Minsweeper</a>
+<ul>
       <li>https://www.w3schools.com</li>
       <li>http://ww8.ivignesh.in/</li>
+      <li>http://kilon.org/samples/minesweeper.html</li>
     </ul>
   </body>
   
