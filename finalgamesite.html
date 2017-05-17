@@ -14,6 +14,7 @@
 body {
     background-color: lightblue;
     font-size: 20px;
+    text-align: center;
 }
 </style>
 </head>
@@ -52,6 +53,7 @@ $(document).ready(function(){
     $("#button").click(function(){
         $("h1").fadeIn("slow");
         $("button").fadeIn(3000);
+        $("p").fadeIn(4000)
         $("#button").fadeOut("slow");
     });
 });
@@ -70,12 +72,17 @@ $(document).ready(function(){
         $("#source").hide();
     });
 });
+$(document).ready(function(){
+    $(function(){
+        $("p").hide();
+    });
+});
 </script>
 
-<button style="font-size:20px" id ="button" type="button" class="btn btn-primary">Enter</button>
+<button style="font-size:100px" id ="button" type="button" class="btn btn-primary">Enter</button>
 <button style="font-size:20px" id="games" type="button" class="btn btn-danger">Games</button>
 
-<button style="font-size:20px" id="source" type="button" class="btn btn-success">Sources</button>
+<button style="font-size:20px " id="source" type="button" class="btn btn-success">Sources</button>
 <p></p>   
 <div><a href="http://griffjv989.github.io/simplegame.html">Simple Fun Game</a></div>
 <div><a href="http://griffjv989.github.io/finaljavasnake.html">Snake Game</a></div>
@@ -85,6 +92,9 @@ $(document).ready(function(){
       <li>http://ww8.ivignesh.in/</li>
       <li>http://kilon.org/samples/minesweeper.html</li>
     </ul>
+    
+
+<p><img src="image/javaimagefinal.png" style="width: 400px; height: 400px"></p>
   </body>
   
 </html>
