@@ -9,21 +9,25 @@ canvas {
 }
 </style>
 </head>
-<body onload="startGame()">
+<body onload="startGame() ">
 
 
-
-
+<button onclick="getRandomColor()">Click to change color</button>
 <script>
-function myFunction() {
-    var color = document.getElementById("frm1");
-}
+
 var myGamePiece;
 
 
-var color = document.getElementById("frm1");
+function pieceRandomColor() {
+  var length = 6;
+  var chars = '0123456789ABCDEF';
+  var hex = "#";
+  while(length--) hex += chars[(Math.random() * 16) | 0];
+  var colorhex = '"'+hex+'"'
+  return colorhex
+}
 function startGame() {
-    myGamePiece = new component(10, 10, "blue", 225, 225);
+    myGamePiece = new component(10, 10, pieceRandomColor(), 225, 225);
     myGameArea.start();
 }
 
@@ -106,7 +110,7 @@ function updateGameArea() {
     myGamePiece.update();
 }
 </script>
-  
+<p id="demo"></p>
 
 
 
